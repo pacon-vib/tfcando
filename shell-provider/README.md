@@ -13,8 +13,8 @@ The documentation on the provider's repo does a good job of explaining the conce
 The main thing is that instead of just writing a script that does something and hoping it works, you are now managing a whole create-update-destroy lifecycle. This is more work than just writing a shell script to create a resource, but the trade-off is well worth it.
 
 To further illustrate the possibilities, this directory contains two examples with unsupported resources in Azure, one in Bash and one in Powershell:
-* [Creating a cluster in Data Bricks](databrickscluster/main.tf)
-* [Creating a linked service for Data Factory](datafactorylinkedservice/main.tf)
+* [Creating a cluster in Data Bricks](databrickscluster/)
+* [Creating a linked service for Data Factory](datafactorylinkedservice/)
 
 ## Tips on reading and writing state
 
